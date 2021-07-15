@@ -9,10 +9,9 @@ function Intro() {
                 <h2>About</h2>
                 <hr />
                 <p>
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                    ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                    quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                    Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    Hi there! I am Dengxin, also goes by name of Eric, I graduated
+                    from Buffalo University in Dec 2019, with a Bachelor of Science
+                    degree in Computer Science, Here is a little bit information about myself
                 </p>
             </div>
 
@@ -32,16 +31,16 @@ function Intro() {
                     </div>
 
                     <div className="intro__detailRightInfo">
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"Website"} data={"easxin.github.io"} />
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"Degree"} data={"BS at Computer Science"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Website"} data={"easxin.github.io"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Degree"} data={"Bachelor of Science"} />
                     </div>
                     <div className="intro__detailRightInfo">
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"Phone"} data={"(347)-399-3665"} />
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"Email"} data={"eric.xinw1@gmail.com"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Phone"} data={"(347)-399-3665"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Email"} data={"eric.xinw1@gmail.com"} />
                     </div>
                     <div className="intro__detailRightInfo">
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"City"} data={"New York, USA"} />
-                        <IntroInfo className="intro__half" Icon={ChevronRightIcon} title={"Freelance"} data={"Available"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"City"} data={"New York, USA"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Freelance"} data={"Available"} />
                     </div>
                     <br />
                     <p>

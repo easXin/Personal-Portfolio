@@ -1,10 +1,10 @@
 import React from 'react'
-import Profile from './about/Profile'
-import Intro from './about/Intro'
-import Skills from './about/Skills'
-import Resume from './about/Resume'
-import Projects from './about/Projects'
-import Contact from './about/Contact'
+import Profile from './about/profileSec/Profile'
+import Intro from './about/introSec/Intro'
+import Skills from './about/skillsSec/Skills'
+import Resume from './about/resumeSec/Resume'
+import Projects from './about/projectsSec/Projects'
+import Contact from './about/contactSec/Contact'
 import './Section.css'
 
 function Section() {

@@ -39,12 +39,7 @@
 .introInfo {
   flex: 0.5;
 }
-/* .intro__left {
-  flex: 0.5;
-}
-.intro__right {
-  flex: 0.5;
-} */
+
 .intro__title > h2 {
   font-size: 32px;
   color: #173b6c;
