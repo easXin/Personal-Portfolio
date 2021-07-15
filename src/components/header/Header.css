@@ -12,6 +12,8 @@
   background: rgb(4, 11, 20);
   overflow-y: auto;
   color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .header__profile {
@@ -68,7 +70,7 @@
   font-size: 15px;
   font-weight: 400;
 }
-.header__bottom {
+.header__footer {
   position: fixed;
   bottom: 0;
   color: whitesmoke;

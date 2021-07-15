@@ -44,7 +44,7 @@ function Header() {
                 <HeaderOptions Icon={ChromeReaderModeIcon} title="Project" />
                 <HeaderOptions Icon={EmailIcon} title="Contact" />
             </div>
-            <div className="header__bottom">
+            <div className="header__footer">
                 <div className="header__copyrights">
                     &copy; 2021 Eric Wang
                 </div>
