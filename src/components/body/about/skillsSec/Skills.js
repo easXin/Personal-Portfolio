@@ -13,7 +13,6 @@ function Skills() {
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-
                 </p>
             </div>
             <div className="skills__detail">

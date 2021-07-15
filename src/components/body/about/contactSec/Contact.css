@@ -1,0 +1,33 @@
+.contact {
+  position: relative;
+  left: 340px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 300px;
+  padding: 60px;
+  background-color: white;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+.contact__title > h2 {
+  font-size: 32px;
+  color: #173b6c;
+  font-weight: 700;
+}
+
+.contact__title > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272829;
+}
+
+.contact__title > hr {
+  width: 50px;
+  background-color: rgb(20, 157, 221);
+  border: none;
+  height: 3px;
+  margin: 20px 0 20px 0;
+}

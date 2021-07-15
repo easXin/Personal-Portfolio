@@ -1,0 +1,52 @@
+.resume {
+  position: relative;
+  left: 340px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 300px;
+  padding: 60px;
+  background-color: white;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+.resume__title > h2 {
+  font-size: 32px;
+  color: #173b6c;
+  font-weight: 700;
+}
+.resume__title > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272829;
+}
+.resume__title > hr {
+  width: 50px;
+  background-color: rgb(20, 157, 221);
+  border: none;
+  height: 3px;
+  margin: 20px 0 20px 0;
+}
+
+.info:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* .right_inner .li_wrap  */
+.info:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  background: rgb(31, 82, 151);
+}
