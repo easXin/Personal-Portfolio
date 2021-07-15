@@ -1,0 +1,83 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  height: 100vh;
+  transition: all ease-in-out 0.5s;
+  z-index: 9999;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: rgb(4, 11, 20);
+  overflow-y: auto;
+  color: black;
+}
+
+.header__profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header__profile > .MuiAvatar-root {
+  display: block;
+  margin: 15px auto;
+  border: 8px solid rgb(44, 47, 68);
+  color: whitesmoke;
+  height: 95px;
+  width: 95px;
+}
+
+.header__profile a {
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+/* MuiButtonBase-root MuiIconButton-root */
+.header__icons > .MuiButtonBase-root {
+  color: whitesmoke;
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 6px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.header__icons > .MuiButtonBase-root:hover {
+  background-color: #149ddd;
+  color: white;
+}
+
+.header__options {
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header__bottom {
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+@media (max-width: 1199px) {
+  .header {
+    left: -400px;
+    transition: all ease-in-out 0.5s;
+  }
+}
