@@ -20,6 +20,7 @@ function Profile() {
                         />
                     </span>
                 </p>
+
                 <h3>
                     Based in <span>New York.</span> I like hiking, coding and using React
                 </h3>

@@ -1,9 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from 'react-bootstrap/Form'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Form, Row, Col, Button } from 'react-bootstrap'
 function Contact() {
     return (
         <div className="contact">
@@ -17,7 +15,7 @@ function Contact() {
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                 </p>
             </div>
-            <div className="contact__detail">
+            <div id="contact__detail">
                 <Form>
                     <Row>
                         <Col>
@@ -27,7 +25,27 @@ function Contact() {
                             <Form.Control placeholder="Last name" />
                         </Col>
                     </Row>
+                    <Row>
+                        <Col>
+                            <Form.Control placeholder="Email" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Form.Control placeholder="Message Subject" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                <Form.Control as="textarea"
+                                    rows={3}
+                                    placeholder="Drop your message here" />
+                            </Form.Group>
+                        </Col>
+                    </Row>
                 </Form>
+                <Button type="submit">Send Message</Button>
             </div>
         </div>
     )

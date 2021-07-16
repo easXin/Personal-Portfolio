@@ -24,9 +24,9 @@
 }
 .projects__title > hr {
   width: 50px;
-  background-color: rgb(20, 157, 221);
+  background-color: rgb(20, 157, 221) !important;
   border: none;
-  height: 3px;
+  height: 3px !important;
   margin: 20px 0 20px 0;
 }
 
