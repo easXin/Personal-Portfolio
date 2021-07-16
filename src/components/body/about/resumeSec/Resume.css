@@ -1,11 +1,11 @@
-.resume {
+#resume {
   position: relative;
   left: 340px;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 300px;
+  margin-right: 320px;
   padding: 60px;
   background-color: white;
   margin-left: -10px;
@@ -29,7 +29,7 @@
   width: 50px;
   background-color: rgb(20, 157, 221);
   border: none;
-  height: 3px  !important;
+  height: 3px !important;
   margin: 20px 0 20px 0;
 }
 
@@ -52,7 +52,7 @@
   }
 }
 @media (max-width: 1199px) {
-  .resume {
+  #resume {
     padding-left: 220px;
     margin-right: 265px;
     margin-left: -400px;

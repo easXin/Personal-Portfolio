@@ -4,7 +4,7 @@ import "./Profile.css"
 
 function Profile() {
     return (
-        <section className="profile">
+        <section id="profile">
             <div className="profile__container">
                 <h1>Eric Wang</h1>
                 <p>I'm

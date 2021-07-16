@@ -4,7 +4,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import './Intro.css'
 function Intro() {
     return (
-        <div className="intro">
+        <div id="intro">
             <div className="intro__title">
                 <h2>About</h2>
                 <hr />

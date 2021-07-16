@@ -38,11 +38,26 @@ function Header() {
                 </div>
             </div>
             <div className="header__options">
-                <HeaderOptions Icon={HomeIcon} title="Home" />
-                <HeaderOptions Icon={PersonIcon} title="About" />
-                <HeaderOptions Icon={AssignmentIcon} title="Resume" />
-                <HeaderOptions Icon={ChromeReaderModeIcon} title="Project" />
-                <HeaderOptions Icon={EmailIcon} title="Contact" />
+                <a href="#profile">
+                    <HeaderOptions Icon={HomeIcon} title="Home" />
+                </a>
+                <a href="#intro">
+                    <HeaderOptions Icon={PersonIcon} title="About" />
+                </a>
+                <a href="#resume">
+                    <HeaderOptions Icon={AssignmentIcon} title="Resume" />
+                </a>
+                <a href="#projects">
+                    <HeaderOptions Icon={ChromeReaderModeIcon} title="Project" />
+                </a>
+                <a href="#contact">
+                    <HeaderOptions Icon={EmailIcon} title="Contact" />
+                </a>
+
+
+
+
+
             </div>
             <div className="header__footer">
                 <div className="header__copyrights">

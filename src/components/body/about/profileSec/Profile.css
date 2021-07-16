@@ -1,12 +1,12 @@
-.profile {
-  width: 100%;
+#profile {
+  width: 100vw;
   height: 100vh;
   background: url("bg.JPG") top center;
   background-size: cover;
   color: white !important;
 }
 
-.profile:before {
+#profile:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -31,7 +31,7 @@
   flex-direction: column;
 }
 
-.profile h1 {
+#profile h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -39,14 +39,14 @@
   color: white !important;
 }
 
-.profile p {
+#profile p {
   padding-bottom: 90px;
   font-size: 26px;
   font-weight: 400;
   font-family: sans-serif;
 }
 
-.profile p span {
+#profile p span {
   /* padding-bottom: 4px;
   letter-spacing: 1px; */
   border-bottom: 2px solid #149ddd;
@@ -68,14 +68,14 @@
 .profile__container h3 span {
   color: #ffffff;
 }
-@media (min-width: 1024px) {
-  .profile {
+/* @media (min-width: 1024px) {
+  #profile {
     background-attachment: fixed;
   }
-}
+} */
 
 @media (max-width: 768px) {
-  .profile h1 {
+  #profile h1 {
     font-size: 28px;
     line-height: 36px;
   }

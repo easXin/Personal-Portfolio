@@ -1,4 +1,4 @@
-.contact {
+#contact {
   position: relative;
   left: 340px;
   color: black;
@@ -50,7 +50,7 @@
   border-radius: 50px !important;
 }
 @media (max-width: 1199px) {
-  .contact {
+  #contact {
     padding-left: 220px;
     margin-right: 265px;
     margin-left: -400px;

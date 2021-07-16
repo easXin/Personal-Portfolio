@@ -1,12 +1,15 @@
-.intro {
+#intro {
   position: relative;
   left: 340px;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 300px;
+  margin-right: 320px;
   padding: 60px;
+  background-color: white;
+  margin-left: -10px;
+  margin-bottom: 20px;
 }
 
 .intro__title,
@@ -86,9 +89,11 @@
   }
 }
 @media (max-width: 1200px) {
-  .intro {
-    left: 100px;
-    margin-right: 100px;
+  #intro {
+    padding-left: 220px;
+    margin-right: 265px;
+    margin-left: -400px;
+    margin-bottom: 20px;
   }
   .intro__title {
     width: 100%;

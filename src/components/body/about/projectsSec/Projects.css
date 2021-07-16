@@ -1,4 +1,4 @@
-.projects {
+#projects {
   position: relative;
   left: 340px;
   color: black;
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 1199px) {
-  .projects {
+  #projects {
     padding-left: 220px;
     margin-right: 265px;
     margin-left: -400px;

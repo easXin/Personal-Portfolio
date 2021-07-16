@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Row, Col, Button } from 'react-bootstrap'
 function Contact() {
     return (
-        <div className="contact">
+        <div id="contact">
             <div className="contact__title">
                 <h2>Contact</h2>
                 <hr />

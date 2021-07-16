@@ -4,7 +4,7 @@ import PersonalInfo from './PersonalInfo'
 import './Resume.css'
 function Resume() {
     return (
-        <div className="resume">
+        <div id="resume">
             <div className="resume__title">
                 <h2>Resume</h2>
                 <hr />

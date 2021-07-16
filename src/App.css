@@ -5,3 +5,7 @@
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+a {
+  text-decoration: none;
+}
