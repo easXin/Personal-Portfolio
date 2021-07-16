@@ -42,7 +42,7 @@
 
 .btn-primary {
   background-color: black !important;
-  width: inherit;
+  width: 100%;
   border-color: black !important;
   outline: none;
 }
@@ -52,7 +52,7 @@
 @media (max-width: 1199px) {
   #contact {
     padding-left: 220px;
-    margin-right: 265px;
+    margin-right: 295px;
     margin-left: -400px;
     margin-bottom: 20px;
   }
