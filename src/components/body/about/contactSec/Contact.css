@@ -5,9 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 300px;
+  margin-right: 320px;
   padding: 60px;
-  background-color: whitesmoke;
+  background-color: white;
   margin-left: -10px;
   margin-bottom: 20px;
 }
@@ -25,6 +25,7 @@
   font-size: 16px;
   font-weight: 400;
   color: #272829;
+  margin-right: 10px;
 }
 
 .contact__title > hr {
@@ -35,7 +36,7 @@
   margin: 20px 0 20px 0;
 }
 #contact__detail {
-  width: 500px;
+  width: 50vw;
   margin: 0 auto;
 }
 
@@ -54,5 +55,8 @@
     margin-right: 265px;
     margin-left: -400px;
     margin-bottom: 20px;
+  }
+  p {
+    margin-right: 20px;
   }
 }

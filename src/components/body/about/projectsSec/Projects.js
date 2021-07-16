@@ -32,18 +32,6 @@ function Projects() {
                     <div className="project fill">
                         <img src="doggy.JPG" alt="doggy" />
                     </div>
-                    <div className="project fill">
-                        <img src="doggy.JPG" alt="doggy" />
-                    </div>
-                    <div className="project fill">
-                        <img src="doggy.JPG" alt="doggy" />
-                    </div>
-                    <div className="project fill">
-                        <img src="doggy.JPG" alt="doggy" />
-                    </div>
-                    <div className="project fill">
-                        <img src="doggy.JPG" alt="doggy" />
-                    </div>
 
                 </div>
             </div>
