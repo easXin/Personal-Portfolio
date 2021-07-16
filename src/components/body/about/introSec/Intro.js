@@ -2,13 +2,14 @@ import React from 'react'
 import IntroInfo from './IntroInfo'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import './Intro.css'
+// titleFont rale  pFont open    bFont   pop
 function Intro() {
     return (
         <div id="intro">
-            <div className="intro__title">
+            <div className="intro__title titleFont">
                 <h2>About</h2>
                 <hr />
-                <p>
+                <p className="pFont">
                     Hi there! I am Dengxin, also goes by name of Eric, I graduated
                     from Buffalo University in Dec 2019, with a Bachelor of Science
                     degree in Computer Science, Here is a little bit information about myself
@@ -19,8 +20,8 @@ function Intro() {
                 <div className="intro__detailLeft">
                     <img src="doggy.JPG" alt="personal avatar" />
                 </div>
-                <div className="intro__detailRight">
-                    <h3>Backend Developer &amp; Web Developer. </h3>
+                <div className="intro__detailRight pFont">
+                    <h3 className="titleFont">Backend Developer &amp; Web Developer. </h3>
                     <p>
                         Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                         ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
@@ -32,7 +33,7 @@ function Intro() {
 
                     <div className="intro__detailRightInfo">
                         <IntroInfo Icon={ChevronRightIcon} title={"Website"} data={"easxin.github.io"} />
-                        <IntroInfo Icon={ChevronRightIcon} title={"Degree"} data={"Bachelor of Science"} />
+                        <IntroInfo Icon={ChevronRightIcon} title={"Degree"} data={"Bachelor "} />
                     </div>
                     <div className="intro__detailRightInfo">
                         <IntroInfo Icon={ChevronRightIcon} title={"Phone"} data={"(347)-399-3665"} />

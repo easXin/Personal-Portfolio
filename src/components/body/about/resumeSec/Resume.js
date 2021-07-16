@@ -5,10 +5,10 @@ import './Resume.css'
 function Resume() {
     return (
         <div id="resume">
-            <div className="resume__title">
+            <div className="resume__title titleFont">
                 <h2>Resume</h2>
                 <hr />
-                <p>
+                <p className="pFont">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur

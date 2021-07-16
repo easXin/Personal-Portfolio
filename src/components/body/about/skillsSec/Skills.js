@@ -4,11 +4,12 @@ import SkillsInfo from './SkillsInfo'
 import './Skills.css'
 function Skills() {
     return (
+        // // titleFont rale  pFont open    bFont   pop
         <div className="skills">
-            <div className="skills__title">
+            <div className="skills__title titleFont">
                 <h2>Skills</h2>
                 <hr />
-                <p>
+                <p className="pFont">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur

@@ -4,14 +4,14 @@ import './SkillsInfo.css'
 function SkillsInfo({ skill, percentage }) {
     return (
         <div className="skillsInfo">
-            <div className="skillsInfo__top">
+        
+            <div className="skillsInfo__top bFont">
                 <p>{skill}</p>
                 <p>{percentage}%</p>
             </div>
             <div className="skillsInfo__buttom">
                 <ProgressBar bgColor={"#149ddd"} completed={percentage} />
             </div>
-
 
         </div>
     )

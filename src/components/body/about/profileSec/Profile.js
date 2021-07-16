@@ -7,11 +7,11 @@ function Profile() {
         <section id="profile">
             <div className="profile__container">
                 <h1>Eric Wang</h1>
-                <p>I'm
+                <p>I'm {" "}
                     <span>
                         <Typewriter
                             options={{
-                                strings: ['Full Stack Developer', 'Problem Solver', 'Hiker'],
+                                strings: ['Developer', 'Photographer', 'Hiker'],
                                 autoStart: true,
                                 loop: true,
                                 pauseFor: 2500,

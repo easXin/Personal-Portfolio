@@ -5,17 +5,17 @@ import { Form, Row, Col, Button } from 'react-bootstrap'
 function Contact() {
     return (
         <div id="contact">
-            <div className="contact__title">
+            <div className="contact__title titleFont">
                 <h2>Contact</h2>
                 <hr />
-                <p>
+                <p className="pFont">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                 </p>
             </div>
-            <div id="contact__detail">
+            <div id="contact__detail pFont">
                 <Form>
                     <Row>
                         <Col>

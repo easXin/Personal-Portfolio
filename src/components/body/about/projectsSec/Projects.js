@@ -4,10 +4,10 @@ import './Projects.css'
 function Projects() {
     return (
         <div id="projects">
-            <div className="projects__title">
+            <div className="projects__title titleFont">
                 <h2>Projects</h2>
                 <hr />
-                <p>
+                <p className="pFont">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                     ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur

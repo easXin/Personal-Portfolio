@@ -3,7 +3,12 @@ import { Avatar, IconButton } from '@material-ui/core';
 import HeaderOptions from './HeaderOptions';
 import './Header.css'
 import { Icon } from '@iconify/react';
-import bxlTwitter from '@iconify-icons/bx/bxl-twitter';
+import bxlFacebook from '@iconify-icons/bx/bxl-facebook';
+import bxlGooglePlus from '@iconify-icons/bx/bxl-google-plus';
+import bxlInstagram from '@iconify-icons/bx/bxl-instagram';
+import bxlLinkedin from '@iconify-icons/bx/bxl-linkedin';
+import bxGitBranch from '@iconify-icons/bx/bx-git-branch';
+
 import HomeIcon from '@material-ui/icons/Home';
 import PersonIcon from '@material-ui/icons/Person';
 import AssignmentIcon from '@material-ui/icons/Assignment';
@@ -16,24 +21,24 @@ function Header() {
             <div className="header__profile">
                 <Avatar src="logo192.png" />
                 <h1>
-                    <a href="index.html">Eric Wang</a>
+                    <a href="javascript();">Eric Wang</a>
                 </h1>
                 {/* facebook, gmail, instagram, linkedIn, gitHub */}
                 <div className="header__icons">
                     <IconButton>
-                        <Icon icon={bxlTwitter} />
+                        <Icon icon={bxlFacebook} />
                     </IconButton>
                     <IconButton>
-                        <Icon icon={bxlTwitter} />
+                        <Icon icon={bxlGooglePlus} />
                     </IconButton>
                     <IconButton>
-                        <Icon icon={bxlTwitter} />
+                        <Icon icon={bxlInstagram} />
                     </IconButton>
                     <IconButton>
-                        <Icon icon={bxlTwitter} />
+                        <Icon icon={bxlLinkedin} />
                     </IconButton>
                     <IconButton>
-                        <Icon icon={bxlTwitter} />
+                        <Icon icon={bxGitBranch} />
                     </IconButton>
                 </div>
             </div>
