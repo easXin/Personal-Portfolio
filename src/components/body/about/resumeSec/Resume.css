@@ -42,3 +42,12 @@
 .resume__detailRight {
   flex: 0.5;
 }
+
+@media (max-width: 1199px) {
+  .resume {
+    padding-left: 220px;
+    margin-right: 265px;
+    margin-left: -400px;
+    margin-bottom: 20px;
+  }
+}

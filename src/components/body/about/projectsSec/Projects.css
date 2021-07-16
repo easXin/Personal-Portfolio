@@ -28,3 +28,12 @@
   height: 3px;
   margin: 20px 0 20px 0;
 }
+
+@media (max-width: 1199px) {
+  .projects {
+    padding-left: 220px;
+    margin-right: 265px;
+    margin-left: -400px;
+    margin-bottom: 20px;
+  }
+}
