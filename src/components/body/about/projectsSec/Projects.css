@@ -29,6 +29,19 @@
   margin: 20px 0 20px 0;
 }
 
+.projects__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
 @media (max-width: 1199px) {
   .projects {
     padding-left: 220px;
@@ -36,4 +49,37 @@
     margin-left: -400px;
     margin-bottom: 20px;
   }
+}
+
+.projects__detail {
+  margin: 0;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.project {
+  height: 200px;
+  color: black;
+  position: relative;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

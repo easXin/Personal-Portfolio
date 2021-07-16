@@ -15,7 +15,37 @@ function Projects() {
                 </p>
             </div>
             <div className="projects__detail">
+                <div className="container">
+                    {/* <h2>Box 1</h2> */}
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
+                    <div className="project fill">
+                        <img src="doggy.JPG" alt="doggy" />
+                    </div>
 
+                </div>
             </div>
         </div>
     )
