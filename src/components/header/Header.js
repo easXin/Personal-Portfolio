@@ -23,7 +23,6 @@ function Header() {
                 <h1>
                     <a href="javascript();">Eric Wang</a>
                 </h1>
-                {/* facebook, gmail, instagram, linkedIn, gitHub */}
                 <div className="header__icons">
                     <IconButton>
                         <Icon icon={bxlFacebook} />

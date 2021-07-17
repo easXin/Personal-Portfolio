@@ -36,7 +36,7 @@
 .resume__detail {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 70vw;
 }
 
@@ -44,7 +44,9 @@
 .resume__detailRight {
   flex: 0.5;
 }
-
+.resume__detailLeft {
+  margin-right: 5px;
+}
 @media (max-width: 990px) {
   .resume__detail {
     display: flex;
