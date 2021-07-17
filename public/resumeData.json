@@ -1,25 +1,15 @@
 {
-  "main": {
-    "name":"Eric Wang",
-    "core":{
-        "name" :"Eric Wang",
-        "age":"26",
-        "website":"easxin.github.io",
-        "degree":"bachelor",
-        "phone":"(347)-399-3665",
-        "email":"eric.xinw1@gmail.com",
-        "city":"New York, USA",
-        "opening":"Available"
-    },
-    "aboutmessages":["","",""],
+  "header": {
+    "name": "Eric Wang",
+    "image":"portfolio.jpg",
     "social": [
       {
-        "name": "facebook",
+        "name": "Facebook",
         "url": "https://www.facebook.com/ericwon95/"
       },
       {
-        "name": "Gmail",
-        "url": "https://myaccount.google.com/personal-info?gar=1"
+        "name": "Slack",
+        "url": "https://sandbox-101.slack.com/join/shared_invite/zt-sz6u1wk7-K_2o5UbmmcNS20jdjx52eA#/shared-invite/email"
       },
       {
         "name": "Instagram",
@@ -34,6 +24,20 @@
         "url": "https://github.com/easXin"
       }
     ]
+  },
+  "main": {
+    "name": "Eric Wang",
+    "core": {
+      "name": "Eric Wang",
+      "age": "26",
+      "website": "easxin.github.io",
+      "degree": "bachelor",
+      "phone": "(347)-399-3665",
+      "email": "eric.xinw1@gmail.com",
+      "city": "New York, USA",
+      "opening": "Available"
+    },
+    "aboutmessages": ["", "", ""]
   },
 
   "resume": {
