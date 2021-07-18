@@ -25,7 +25,7 @@
   border-radius: 10px;
 }
 
-.eduWorInfo__detail > p,
+.eduWorInfo__detail > .desc,
 .eduWorInfo__detail > h5 {
   font-weight: 400;
   font-size: 16px;
