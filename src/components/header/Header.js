@@ -98,9 +98,9 @@ function Header({ name }) {
             <div className="header__options">
                 {headerOption}
             </div>
-            
+
             <div className="header__footer">
-            
+
                 <div className="header__copyrights">
                     &copy; 2021 {name}
                 </div>
