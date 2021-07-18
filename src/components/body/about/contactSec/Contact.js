@@ -16,7 +16,7 @@ function Contact() {
                 </p>
             </div>
             <div id="contact__detail pFont">
-                <Form method="POST" action="https://formsubmit.co/eric.xinw1@email.com" enctype="multipart/form-data">
+                <Form method="POST" action="https://formsubmit.co/eric.xinw1@email.com" encType="multipart/form-data">
                     <Row>
                         <Col>
                             <Form.Control placeholder="First name" />

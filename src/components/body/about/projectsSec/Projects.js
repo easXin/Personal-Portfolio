@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Projects.css'
-
+import { v4 as uuidv4 } from 'uuid';
 function Projects() {
-    const [projects, setProjects] = useState([
+    const projects = [
         {
             "title": "Studying Group Chat (Java & AWS)",
             "image": "chattingApp.jpg",
@@ -49,14 +49,14 @@ function Projects() {
             "image": "amazon.jpg",
             "url": "https://github.com/easXin/amazon-clone"
         }
-    ])
+    ]
 
     const projectData = projects.map(project => {
         let imgUrl = "./images/portfolio/" + project.image;
         return (
-            <div className="project fill item-wrap">
+            <div className="project fill item-wrap" key={uuidv4()}>
                 <a href={project.url} title={project.title}>
-                    <img src={imgUrl} alt={project.tag} />
+                    <img src={imgUrl} alt={project.tag} title={project.title} />
                     <div className="overlay">
                         <div className="portfolio-item-meta">
                             <h5>{projects.title}</h5>
@@ -72,9 +72,6 @@ function Projects() {
             <div className="projects__title titleFont">
                 <h2>Projects</h2>
                 <hr />
-                <p className="pFont">
-
-                </p>
             </div>
             <div className="projects__detail">
                 <div className="container">

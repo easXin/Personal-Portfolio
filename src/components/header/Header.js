@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Avatar, IconButton } from '@material-ui/core';
 import HeaderOptions from './HeaderOptions';
 import './Header.css'
@@ -13,12 +13,12 @@ import PersonIcon from '@material-ui/icons/Person';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 import EmailIcon from '@material-ui/icons/Email';
-
+import { v4 as uuidv4 } from 'uuid';
 function Header({ name }) {
 
 
-    const [imgPath, setImgPath] = useState("./images/pic2.jpg")
-    const [iconData, setIconData] = useState([
+    const imgPath = "./images/pic2.jpg"
+    const iconData = [
         {
             "url": "https://www.facebook.com/ericwon95/",
             "icon": bxlFacebook
@@ -39,8 +39,8 @@ function Header({ name }) {
             "url": "https://github.com/easXin",
             "icon": bxGitBranch
         }
-    ])
-    const [options, setOption] = useState([
+    ]
+    const options = [
         {
             "icon": HomeIcon,
             "title": "Home",
@@ -64,10 +64,10 @@ function Header({ name }) {
             "title": "Contact",
             "posAnchor": "#contact"
         }
-    ])
+    ]
     const socialMedia = iconData.map((data) => {
         return (
-            <IconButton>
+            <IconButton key={uuidv4()}>
                 <a href={data.url}>
                     <Icon icon={data.icon} />
                 </a>
@@ -76,7 +76,7 @@ function Header({ name }) {
     });
     const headerOption = options.map((data) => {
         return (
-            <a href={data.posAnchor}>
+            <a href={data.posAnchor} key={uuidv4()}>
                 <HeaderOptions Icon={data.icon} title={data.title} />
             </a>
         )
@@ -87,7 +87,7 @@ function Header({ name }) {
     return (
         <div className="header">
             <div className="header__profile" >
-                <Avatar src={imgPath} />
+                <Avatar src={imgPath} title="chilling" />
                 <h1>
                     {name}
                 </h1>
@@ -98,9 +98,9 @@ function Header({ name }) {
             <div className="header__options">
                 {headerOption}
             </div>
-            
+
             <div className="header__footer">
-            
+
                 <div className="header__copyrights">
                     &copy; 2021 {name}
                 </div>

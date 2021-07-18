@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import IntroInfo from './IntroInfo'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import './Intro.css'
 
 function Intro({ name }) {
-    const [personalInfo, setPersonalInfo] = useState({
+    const personalInfo={
         "name": name,
         "age": 26,
         "website": "easxin.github.io",
@@ -13,11 +13,11 @@ function Intro({ name }) {
         "email": "eric.xinw1@gmail.com",
         "location": "New York, USA",
         "opening": "Available"
-    })
-    const [imgPath, setImgPath] = useState("./images/profile.jpg")
-    const [introPara, setIntroPara] = useState("Hi there! Thank you to visit my personal website. I am Dengxin, also goes by name of Eric, I graduated from Buffalo University in Dec 2019, with a Bachelor of Science degree in Computer Science. During my spare time, I enjoy to traveling around, I like to use the camera to record down the beautiful scenery I have seen, currently I have been to Florida, Toronto, Pennsylvania, and some other places, but New York remains my favorite, because I am a New Yorker and I like the city I live in.")
-    const [bodyPara, setPara] = useState("I spent most my time at backend development, but I like React, which makes me a web developer")
-    const [footerPara, setfootPara] = useState("")
+    }
+    const imgPath="./images/profile.jpg"
+    const introPara = "Hi there! Thank you to visit my personal website. I am Dengxin, also goes by name of Eric, I graduated from Buffalo University in Dec 2019, with a Bachelor of Science degree in Computer Science. During my spare time, I enjoy to traveling around, I like to use the camera to record down the beautiful scenery I have seen, currently I have been to Florida, Toronto, Pennsylvania, and some other places, but New York remains my favorite, because I am a New Yorker and I like the city I live in."
+    const bodyPara = "I spent most my time at backend development, but I like React, which makes me a web developer"
+
     return (
         <div id="intro">
             <div className="intro__title titleFont">

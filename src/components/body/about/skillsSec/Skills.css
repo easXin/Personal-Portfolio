@@ -4,7 +4,6 @@
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   margin-right: 300px;
   padding: 60px;
   background-color: whitesmoke;
@@ -17,6 +16,7 @@
   margin: auto;
   width: 98%;
   padding: 10px;
+  margin-left: 40px;
 }
 .skills__title > h2 {
   font-size: 32px;

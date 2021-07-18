@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Profile from './about/profileSec/Profile'
 import Intro from './about/introSec/Intro'
 import Skills from './about/skillsSec/Skills'
@@ -7,7 +7,7 @@ import Projects from './about/projectsSec/Projects'
 import Contact from './about/contactSec/Contact'
 import './Section.css'
 function Section() {
-    const [name, setName] = useState("Eric Wang")
+    const name = "Eric Wang"
 
     return (
         <div className="section">

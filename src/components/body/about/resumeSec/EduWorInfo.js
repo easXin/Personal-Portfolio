@@ -15,7 +15,7 @@ function EduWorInfo({ secType, title, duration, location, description }) {
                     <h3 className="bFont">{title}</h3>
                     <h4 className="titleFont">{duration}</h4>
                     <h5 className="pFont">{location}</h5>
-                    <p className="pFont">{description}</p>
+                    <div className="pFont desc">{description}</div>
                 </div>
             </div>
         </div>

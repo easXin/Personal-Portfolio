@@ -9,9 +9,6 @@ function Skills() {
             <div className="skills__title titleFont">
                 <h2>Skills</h2>
                 <hr />
-                <p className="pFont">
-                    My Programming Language Proficiency
-                </p>
             </div>
             <div className="skills__detail">
                 <div className="skills__detailInfo">
