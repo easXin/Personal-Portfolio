@@ -87,7 +87,7 @@ function Header({ name }) {
     return (
         <div className="header">
             <div className="header__profile" >
-                <Avatar src={imgPath} title="chilling" />
+                <Avatar src={String(imgPath)} title="chilling" />
                 <h1>
                     {name}
                 </h1>
