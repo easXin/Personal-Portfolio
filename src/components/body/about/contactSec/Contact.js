@@ -6,17 +6,17 @@ function Contact() {
     return (
         <div id="contact">
             <div className="contact__title titleFont">
-                <h2>Contact</h2>
+                <div className="contact__hireMe">
+                    <h2>Contact</h2>
+                    <a href="https://drive.google.com/file/d/1AnTG3uqifJj015RiCC4FJ4x_STIU1ewY/view?usp=sharing" className="hireButton pFont">Hire Me</a>
+                </div>
+
                 <hr />
                 <p className="pFont">
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                    ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                    ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
                 </p>
             </div>
             <div id="contact__detail pFont">
-                <Form>
+                <Form method="POST" action="https://formsubmit.co/eric.xinw1@email.com" enctype="multipart/form-data">
                     <Row>
                         <Col>
                             <Form.Control placeholder="First name" />
@@ -44,8 +44,9 @@ function Contact() {
                             </Form.Group>
                         </Col>
                     </Row>
+                    <Button type="submit">Send Message</Button>
                 </Form>
-                <Button type="submit">Send Message</Button>
+
             </div>
         </div>
     )

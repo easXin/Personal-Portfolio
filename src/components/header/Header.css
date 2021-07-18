@@ -18,6 +18,46 @@
   overflow-x: hidden;
 }
 
+.button {
+  border-radius: 4px;
+  background-color: rgb(5, 19, 29);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00AB";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.05s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .header__profile {
   display: flex;
   flex-direction: column;
@@ -29,13 +69,15 @@
 .header__profile > .MuiAvatar-root {
   display: block;
   margin: 15px auto;
-  border: 8px solid rgb(44, 47, 68);
+  border: 7px solid rgb(44, 47, 68);
   color: whitesmoke;
-  height: 95px;
-  width: 95px;
+  height: 135px;
+  width: 135px;
+  margin-top: 30px;
 }
 
-.header__profile a {
+.header__profile a,
+.header__profile h1 {
   font-size: 24px;
   text-decoration: none;
   font-weight: 600;
@@ -43,6 +85,7 @@
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  padding-top: 5px;
 }
 .header__profile a:hover {
   color: white;
@@ -54,14 +97,15 @@
   display: inline-block;
   background: #212431;
   line-height: 1;
-  padding: 8px 0;
+  /* padding: 1px; */
+  padding-top: 1px;
   margin-right: 6px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  transition: 0.5s;
+  margin-top: 15px;
 }
 
 .header__icons > .MuiButtonBase-root:hover {
@@ -89,4 +133,8 @@
     left: -400px;
     transition: all ease-in-out 0.5s;
   }
+}
+
+p {
+  text-decoration: none;
 }

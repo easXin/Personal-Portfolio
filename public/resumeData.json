@@ -1,172 +1,118 @@
 {
   "header": {
     "name": "Eric Wang",
-    "image":"portfolio.jpg",
-    "social": [
-      {
-        "name": "Facebook",
-        "url": "https://www.facebook.com/ericwon95/"
-      },
-      {
-        "name": "Slack",
-        "url": "https://sandbox-101.slack.com/join/shared_invite/zt-sz6u1wk7-K_2o5UbmmcNS20jdjx52eA#/shared-invite/email"
-      },
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/stillthinking___/"
-      },
-      {
-        "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/ericxin/"
-      },
-      {
-        "name": "Github",
-        "url": "https://github.com/easXin"
-      }
-    ]
+    "image": "profile.jpg"
   },
-  "main": {
-    "name": "Eric Wang",
-    "core": {
+  "core":{
+    "main": {
       "name": "Eric Wang",
-      "age": "26",
-      "website": "easxin.github.io",
-      "degree": "bachelor",
-      "phone": "(347)-399-3665",
-      "email": "eric.xinw1@gmail.com",
-      "city": "New York, USA",
-      "opening": "Available"
+      "core": {
+        "name": "Eric Wang",
+        "age": "26",
+        "website": "easxin.github.io",
+        "degree": "bachelor",
+        "phone": "(347)-399-3665",
+        "email": "eric.xinw1@gmail.com",
+        "city": "New York, USA",
+        "opening": "Available"
+      },
+      "aboutmessages": ["", "", ""]
     },
-    "aboutmessages": ["", "", ""]
-  },
 
-  "resume": {
-    "resumeMessage": "this message is from resume portion",
-    "summary": {
-      "name": "Eric Wang",
-      "description": "yolo~~~~~~~"
+    "resume": {
+      "resumeMessage": "this message is from resume portion",
+      "summary": {
+        "name": "Eric Wang",
+        "description": "yolo~~~~~~~"
+      },
+      "education": [
+        {
+          "degree": "BS",
+          "duration": "Bachelor's Degree, Computer Science",
+          "location": "xxxx",
+          "description": "yyyy"
+        }
+      ],
+      "achievement": [
+        {
+          "title": "xxx",
+          "duration": "yyyy",
+          "location": "zzzz",
+          "description": ["xxx", "xxx", "xxx"]
+        }
+      ],
+      "experience": [
+        {
+          "title": "JP - UK",
+          "duration": "Bachelor's Degree, Computer Science",
+          "location": "July 2016",
+          "description": ["xxxx", "xxxx", "xxxx"]
+        },
+        {
+          "title": "UB - UK",
+          "duration": "Bachelor's Degree, Computer Science",
+          "location": "July 2016",
+          "description": ["xxxx", "xxxx", "xxxx"]
+        },
+        {
+          "title": "IOT - UK",
+          "duration": "Bachelor's Degree, Computer Science",
+          "location": "July 2016",
+          "description": ["xxxx", "xxxx", "xxxx"]
+        }
+      ]
     },
-    "education": [
-      {
-        "degree": "BS",
-        "duration": "Bachelor's Degree, Computer Science",
-        "location": "xxxx",
-        "description": "yyyy"
-      }
-    ],
-    "achievement": [
-      {
-        "title": "xxx",
-        "duration": "yyyy",
-        "location": "zzzz",
-        "description": ["xxx", "xxx", "xxx"]
-      }
-    ],
-    "experience": [
-      {
-        "title": "JP - UK",
-        "duration": "Bachelor's Degree, Computer Science",
-        "location": "July 2016",
-        "description": ["xxxx", "xxxx", "xxxx"]
-      },
-      {
-        "title": "UB - UK",
-        "duration": "Bachelor's Degree, Computer Science",
-        "location": "July 2016",
-        "description": ["xxxx", "xxxx", "xxxx"]
-      },
-      {
-        "title": "IOT - UK",
-        "duration": "Bachelor's Degree, Computer Science",
-        "location": "July 2016",
-        "description": ["xxxx", "xxxx", "xxxx"]
-      }
-    ],
-    "skillsMessage": "this message is from skill portion",
-    "skills": [
-      {
-        "name": "Java",
-        "level": "90%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "85%"
-      },
-      {
-        "name": "React",
-        "level": "80%"
-      },
-      {
-        "name": "Rest API",
-        "level": "75%"
-      },
-      {
-        "name": "SpringBoot",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "75%"
-      },
-      {
-        "name": "SQL",
-        "level": "75%"
-      },
-      {
-        "name": "FireBase",
-        "level": "55%"
-      }
-    ]
-  },
 
-  "portfolio": {
-    "portfolioMessage": "I am coming from portfolio portion",
-    "projects": [
-      {
-        "title": "Studying Group Chat (Java & AWS)",
-        "image": "chattingApp.jpg",
-        "url": "https://github.com/easXin/Studying-Buddies"
-      },
-      {
-        "title": "Note-Taking (Android & SQL)",
-        "image": "noteTaking.jpg",
-        "url": "https://github.com/easXin/Note-Taking-App"
-      },
-      {
-        "title": "Tic-Tac-Toe (Python)",
-        "image": "ticTacToe.jpg",
-        "url": "https://github.com/easXin/Tic-Tac-Toe"
-      },
-      {
-        "title": "Covid 19 Tracker (React & FireBase)",
-        "image": "covid19.jpg",
-        "url": "https://github.com/easXin/covid-19-tracker"
-      },
-      {
-        "title": "Personal Portfolio (React & JSON)",
-        "image": "portfolio.jpg",
-        "url": "https://github.com/easXin/Personal-Portfolio"
-      },
-      {
-        "title": "LinkedIn Clone (React & FireBase)",
-        "image": "linkedin.jpg",
-        "url": "https://github.com/easXin/linkedin-app"
-      },
-      {
-        "title": "Netflix Clone (React & FireBase)",
-        "image": "netflix.jpg",
-        "url": "https://github.com/easXin/netflix-app"
-      },
-      {
-        "title": "Spotify Clone (React & FireBase)",
-        "image": "spotify.jpg",
-        "url": "https://github.com/easXin/Spotify-clone"
-      },
-      {
-        "title": "Amazon Clone (React & FireBase)",
-        "image": "amazon.jpg",
-        "url": "https://github.com/easXin/amazon-clone"
-      }
-    ]
+    "portfolio": {
+      "portfolioMessage": "I am coming from portfolio portion",
+      "projects": [
+        {
+          "title": "Studying Group Chat (Java & AWS)",
+          "image": "chattingApp.jpg",
+          "url": "https://github.com/easXin/Studying-Buddies"
+        },
+        {
+          "title": "Note-Taking (Android & SQL)",
+          "image": "noteTaking.jpg",
+          "url": "https://github.com/easXin/Note-Taking-App"
+        },
+        {
+          "title": "Tic-Tac-Toe (Python)",
+          "image": "ticTacToe.jpg",
+          "url": "https://github.com/easXin/Tic-Tac-Toe"
+        },
+        {
+          "title": "Covid 19 Tracker (React & FireBase)",
+          "image": "covid19.jpg",
+          "url": "https://github.com/easXin/covid-19-tracker"
+        },
+        {
+          "title": "Personal Portfolio (React & JSON)",
+          "image": "portfolio.jpg",
+          "url": "https://github.com/easXin/Personal-Portfolio"
+        },
+        {
+          "title": "LinkedIn Clone (React & FireBase)",
+          "image": "linkedin.jpg",
+          "url": "https://github.com/easXin/linkedin-app"
+        },
+        {
+          "title": "Netflix Clone (React & FireBase)",
+          "image": "netflix.jpg",
+          "url": "https://github.com/easXin/netflix-app"
+        },
+        {
+          "title": "Spotify Clone (React & FireBase)",
+          "image": "spotify.jpg",
+          "url": "https://github.com/easXin/Spotify-clone"
+        },
+        {
+          "title": "Amazon Clone (React & FireBase)",
+          "image": "amazon.jpg",
+          "url": "https://github.com/easXin/amazon-clone"
+        }
+      ]
+    }
   }
+
 }

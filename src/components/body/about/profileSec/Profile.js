@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect'
 import "./Profile.css"
 
 function Profile() {
+
     return (
         <section id="profile">
             <div className="profile__container">
