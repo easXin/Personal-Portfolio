@@ -4,17 +4,17 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import './Intro.css'
 
 function Intro({ name }) {
-    const personalInfo={
+    const personalInfo = {
         "name": name,
         "age": 26,
-        "website": "easxin.github.io",
+        "website": "easxin.github.io/portfolio/",
         "degree": "Bachelor",
         "phone": "(347)-399-3665",
         "email": "eric.xinw1@gmail.com",
         "location": "New York, USA",
         "opening": "Available"
     }
-    const imgPath="./images/profile.jpg"
+    const imgPath = "./images/profile.jpg"
     const introPara = "Hi there! Thank you to visit my personal website. I am Dengxin, also goes by name of Eric, I graduated from Buffalo University in Dec 2019, with a Bachelor of Science degree in Computer Science. During my spare time, I enjoy to traveling around, I like to use the camera to record down the beautiful scenery I have seen, currently I have been to Florida, Toronto, Pennsylvania, and some other places, but New York remains my favorite, because I am a New Yorker and I like the city I live in."
     const bodyPara = "I spent most my time at backend development, but I like React, which makes me a web developer"
 
