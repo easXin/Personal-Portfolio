@@ -4,7 +4,6 @@
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   margin-right: 300px;
   padding: 60px;
   background-color: whitesmoke;
@@ -34,7 +33,6 @@
 .projects__detail {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .row {
