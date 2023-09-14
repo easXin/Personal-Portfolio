@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="app scrollbar">
-      <Header name="Eric Wang" />
+      <Header name="Eric Wang111" />
       <Section />
     </div>
   );
