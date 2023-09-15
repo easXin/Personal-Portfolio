@@ -5,11 +5,11 @@ import brandImg from '../../img/dw.jpg';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 export default function HeaderComponnet() {
   const navItem = [
-    {'Home':'/portfolio/home'},
-    {'About':'/portfolio/about'},
-    {'Timeline':'/portfolio/resume'},
-    {'Project':'/portfolio/project'},
-    {'Contact':'/portfolio/contact'}
+    {'Home':'/home'},
+    {'About':'/about'},
+    {'Timeline':'/resume'},
+    {'Project':'/project'},
+    {'Contact':'/contact'}
   ]
 
   const [expanded, setExpanded] = useState(false);
@@ -20,7 +20,7 @@ export default function HeaderComponnet() {
   return (
     <Navbar bg="navbar navbar-expand-lg navbar-light bg-light border-5 mb-5 p-2" expand="lg">
       <Container>
-        <Navbar.Brand href="/portfolio/">
+        <Navbar.Brand href="/">
           <img src={brandImg} alt="projects"></img>
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleNavbarToggle} aria-controls="basic-navbar-nav" style={{ fontSize: '1rem' }}/>
