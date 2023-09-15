@@ -16,13 +16,13 @@ export default function RoutingComponent() {
     <Router>
        <HeaderComponnet/>
        <Routes>    
-            <Route path="/" element={<HomeComponent/>}/>
-            <Route path="/home" element={<HomeComponent/>}/>
-            <Route path="/about" element={<AboutComponent/>}/>
-            <Route path="/contact" element={<ContactComponent/>}/>
-            <Route path="/project" element={<ProjectComponent/>}/>
-            <Route path="/resume" element={<ResumeComponent/>}/>
-            <Route path="*" element={<ErrorComponent/>}></Route>    
+            <Route path="/portfolio/" element={<HomeComponent/>}/>
+            <Route path="/portfolio/home" element={<HomeComponent/>}/>
+            <Route path="/portfolio/about" element={<AboutComponent/>}/>
+            <Route path="/portfolio/contact" element={<ContactComponent/>}/>
+            <Route path="/portfolio/project" element={<ProjectComponent/>}/>
+            <Route path="/portfolio/resume" element={<ResumeComponent/>}/>
+            <Route path="/portfolio/*" element={<ErrorComponent/>}></Route>    
        </Routes>
        <FooterComponent/>
     </Router>

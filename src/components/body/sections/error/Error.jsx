@@ -12,10 +12,10 @@ export default function ErrorComponent() {
               <p>Emm, so what are you looking for </p> 
               <div>
               <span className="highlight-link">
-                <a href="/contact" className='underline-animation' >Leave a Message</a>
+                <a href="/portfolio/contact" className='underline-animation' >Leave a Message</a>
               </span> or &nbsp;
                 <span className="highlight-link">
-                  <a href="/" className='underline-animation' >Go Back</a>
+                  <a href="/portfolio/" className='underline-animation' >Go Back</a>
                 </span>
               </div>
         </div>

@@ -27,7 +27,7 @@ export default function ContactComponent() {
           console.log(error.text);
         }
       );
-      navigate(`/`)
+      navigate(`/portfolio/`)
   };
 
   return (
