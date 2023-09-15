@@ -1,8 +1,0 @@
-.skillsInfo__top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  font-size: 12px;
-  font-weight: 600;
-}
