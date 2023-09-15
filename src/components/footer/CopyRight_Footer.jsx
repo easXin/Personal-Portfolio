@@ -17,10 +17,6 @@ export default function FooterComponent() {
         "icon": bxlFacebook
     },
     {
-        "url": "https://sandbox-101.slack.com/join/shared_invite/zt-sz6u1wk7-K_2o5UbmmcNS20jdjx52eA#/shared-invite/email",
-        "icon": bxlSlack
-    },
-    {
         "url": "https://www.instagram.com/xineas3698/",
         "icon": bxlInstagram
     },

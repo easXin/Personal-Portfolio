@@ -19,11 +19,12 @@ export default function HomeComponent() {
         </span>
       </h3>
       <h3 className="intro__contact">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span className="highlight-link">
         <a href="https://docs.google.com/document/d/1Irghg7JbeuPYAAmqRyEGnP5qlfUSQcddetMBT0CoRVo/edit?usp=sharing" 
            target="_blank"
            rel="noopener noreferrer"
-           className="underline-animation">To learn more about me </a>
+           className="underline-animation"> {"---->"}Read My Resume {"<----"}</a>
         </span>
       </h3>
     </div>

@@ -78,8 +78,6 @@ function Header({ name }) {
         )
     })
 
-
-
     return (
         <div className="header">
             <div className="header__profile" >
