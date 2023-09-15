@@ -1,0 +1,39 @@
+.about {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column; /* Ensure horizontal layout */
+  }
+
+.about_left,
+.about_right {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about_right{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Media query for screens wider than 900px */
+@media screen and (min-width: 900px) {
+  .about {
+    flex-direction: row;
+    /* Ensure elements wrap to the next line if the screen width is insufficient */
+  }
+
+  .about_left,
+  .about_right {
+    width: calc(50% - 10px); /* Adjust the width and margin as needed */
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+.my_pic{
+    height: 400px;
+    width: 250px;
+}

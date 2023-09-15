@@ -1,0 +1,11 @@
+footer {
+    bottom: 0;
+    width: 100%;
+}
+footer > .copyrights{
+    position: relative;
+    color: #000;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+}
