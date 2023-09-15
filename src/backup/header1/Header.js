@@ -8,11 +8,6 @@ import bxlSlack from '@iconify-icons/bx/bxl-slack';
 import bxlInstagram from '@iconify-icons/bx/bxl-instagram';
 import bxlLinkedin from '@iconify-icons/bx/bxl-linkedin';
 import bxGitBranch from '@iconify-icons/bx/bx-git-branch';
-import HomeIcon from '@material-ui/icons/Home';
-import PersonIcon from '@material-ui/icons/Person';
-import AssignmentIcon from '@material-ui/icons/Assignment';
-import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
-import EmailIcon from '@material-ui/icons/Email';
 import { v4 as uuidv4 } from 'uuid';
 function Header({ name }) {
 
@@ -40,6 +35,15 @@ function Header({ name }) {
             "icon": bxGitBranch
         }
     ]
+    const socialMedia = iconData.map((data) => {
+        return (
+            <IconButton key={uuidv4()}>
+                <a href={data.url}>
+                    <Icon icon={data.icon} />
+                </a>
+            </IconButton>
+        );
+    });
     const options = [
         {
             "icon": HomeIcon,
@@ -65,15 +69,7 @@ function Header({ name }) {
             "posAnchor": "#contact"
         }
     ]
-    const socialMedia = iconData.map((data) => {
-        return (
-            <IconButton key={uuidv4()}>
-                <a href={data.url}>
-                    <Icon icon={data.icon} />
-                </a>
-            </IconButton>
-        );
-    });
+
     const headerOption = options.map((data) => {
         return (
             <a href={data.posAnchor} key={uuidv4()}>
