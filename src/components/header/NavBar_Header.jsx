@@ -8,7 +8,7 @@ export default function HeaderComponnet() {
   const navItem = [
     {'Home':'/home'},
     {'About':'/about'},
-    {'Resume':'/resume'},
+    {'Timeline':'/resume'},
     {'Project':'/project'},
     {'Contact':'/contact'}
   ]

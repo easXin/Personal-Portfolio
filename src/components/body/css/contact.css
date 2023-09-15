@@ -1,0 +1,71 @@
+/* Styles for the Contact form */
+.StyledContactForm {
+  width: 100%;
+  max-width: 400px; /* Limit the form width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; /* Add some padding for spacing */
+
+  /* Optional: Add a background color or background image */
+  background-color: whitesmoke;
+  /* background-image: url('your-background-image.jpg'); */
+  /* background-size: cover; */
+}
+
+.StyledContactForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.StyledContactForm label {
+  font-weight: bold;
+}
+
+.StyledContactForm input[type="text"],
+.StyledContactForm input[type="email"],
+.StyledContactForm textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.StyledContactForm input[type="text"]:focus,
+.StyledContactForm input[type="email"]:focus,
+.StyledContactForm textarea:focus {
+  border-color: rgba(0, 206, 158, 1);
+}
+
+.StyledContactForm input[type="submit"] {
+  margin-top: 1rem;
+  background-color: #e2e0e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  height: 50px;
+}
+
+.StyledContactForm input[type="submit"]:hover {
+  background-color: #aaa6a6;
+}
+
+.StyledContactForm input[type="submit"]:active {
+  background-color: #e2e0e0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa6a6;
+  /* Optional: Adjust placeholder styles */
+}

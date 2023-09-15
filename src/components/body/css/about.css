@@ -5,9 +5,12 @@
     justify-content: space-around;
     max-width: 1440px;
     display: flex;
+    
     flex-direction: column; /* Ensure horizontal layout */
   }
-
+.about_left>p{
+  font-weight: 500 !important;
+}
 .about_left,
 .about_right {
   width: 100%;
