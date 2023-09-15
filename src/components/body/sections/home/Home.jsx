@@ -15,15 +15,14 @@ export default function HomeComponent() {
       <h3 className="intro__contact">
         <span>Get in touch </span>
         <span className="highlight-link">
-          <a href="mailto:eric.xinw1@gmail.com" target="_blank" className='underline-animation' >eric.xinw1@gmail.com</a>
+          <a href="mailto:eric.xinw1@gmail.com" target="_blank" rel="noopener noreferrer" className='underline-animation' >eric.xinw1@gmail.com</a>
         </span>
       </h3>
       <h3 className="intro__contact">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span className="highlight-link">
         <a href="https://docs.google.com/document/d/1Irghg7JbeuPYAAmqRyEGnP5qlfUSQcddetMBT0CoRVo/edit?usp=sharing" 
-           target="_blank"
-           rel="noopener noreferrer"
+           target="_blank" rel="noopener noreferrer"
            className="underline-animation"> {"---->"}Read My Resume {"<----"}</a>
         </span>
       </h3>

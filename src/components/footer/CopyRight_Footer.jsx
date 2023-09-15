@@ -3,7 +3,6 @@ import React from 'react'
 import { IconButton } from '@mui/material';
 import '../css/footer.css'
 import bxlFacebook from '@iconify-icons/bx/bxl-facebook';
-import bxlSlack from '@iconify-icons/bx/bxl-slack';
 import bxlInstagram from '@iconify-icons/bx/bxl-instagram';
 import bxlLinkedin from '@iconify-icons/bx/bxl-linkedin';
 import bxGitBranch from '@iconify-icons/bx/bx-git-branch';
